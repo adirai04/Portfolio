@@ -1,0 +1,161 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background-color: #6c63ff;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+.header-top {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem 0;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+#about .bio {
+    max-width: 600px;
+}
+
+/* Name Above Skills Section */
+#name {
+    text-align: center;
+    font-size: 2rem;
+    color: #6c63ff;
+    margin-top: 1rem;
+}
+
+/* Skills Section */
+#skills {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#skills h2 {
+    margin-bottom: 1rem;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #6c63ff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.project {
+    margin: 1rem 0;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #6c63ff;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Links Section */
+#links {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#links h2 {
+    margin-bottom: 1rem;
+}
+
+/* New styles for arranging social icons side by side */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+}
+
+/* Set size for the icons */
+.social-links img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 1rem;
+}
+
+#contact p {
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
